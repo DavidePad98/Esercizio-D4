@@ -1,0 +1,96 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+  /* font-family: "Noto Sans Glagolitic", sans-serif; */
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-image: url(./sfondo.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  /* border: 2px solid black; */
+  padding: 5px;
+}
+body div {
+  margin: 1em;
+}
+
+/* HEADER */
+.vignetta {
+  padding: 20px;
+  background: rgb(4, 84, 98);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 84, 98, 1) 53%,
+    rgba(4, 97, 113, 1) 74%
+  );
+  color: white;
+}
+
+#logo {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/* MAIN */
+.main {
+  background-color: white;
+  border-style: inset;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#h1 {
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 10px;
+}
+
+#p {
+  color: gray;
+}
+
+#p2 {
+  margin: 0;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+#caption {
+  font-style: italic;
+}
+
+.table {
+  border-bottom: solid #2b389f;
+  display: inline-block;
+  text-align: center;
+}
+
+#tr {
+  color: white;
+  background-color: #2b389f;
+}
+
+.color-tb {
+  background-color: lightgray;
+}
+/* FORM */
+.quad {
+  background-color: lightgray;
+}
+
+/* ELEMENTI NELL' ASIDE */
+#novita {
+  text-align: center;
+}
+
+/* FOOTER */
